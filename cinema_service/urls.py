@@ -5,4 +5,3 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/cinema/", include("cinema.urls", namespace="cinema"))
 ]
-
